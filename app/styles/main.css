@@ -1,5 +1,6 @@
 /* BASIC STYLINGS
 ============================================================================= */
+
 @import url('../fonts/kozgopr6n-light.css');
 @import url('../fonts/styles.css');
 .form-one {
@@ -20,64 +21,51 @@
 }
 .city-banner {
   color: #fff;
-  margin-left: 40%;
+  margin-left: 35%;
   margin-right: auto;
-  margin-top: 20%;
+  z-index: 100;
 }
-.header-text {
+.header-city {
+  margin-top: 7%;
   color: #fff;
-  font-size:30px;
-  font-family: 'Flaticon' !important;
+  font-size: 50px;
+  font-family: 'KozGoPro-Medium-AlphaNum' !important;
+  z-index: 300;
 }
-pre {
-  margin-bottom: 20px;
+.button-row {
+  margin-top: 5%;
 }
-/* form styling */
-
-h2, h3 {
-  color: #fff;
-}
-label {
-  color: #fff;
-}
-#form-container {
-  background: #2f2f2f;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-#form-container .page-header {
-  background: #151515;
-  margin: 0;
-  padding: 30px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-/* numbered buttons */
-
-#status-buttons {} #status-buttons a {
-  color: #FFF;
-  display: inline-block;
-  font-size: 12px;
-  margin-right: 10px;
-  text-align: center;
-  text-transform: uppercase;
-}
-#status-buttons a:hover {
-  text-decoration: none;
-}
-#status-buttons span {
-  background: #080808;
-  display: block;
-  height: 30px;
-  margin: 0 auto 10px;
-  padding-top: 5px;
-  width: 30px;
+.circle {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* active buttons */
-
-#status-buttons a.active span {
-  background: #00BC8C;
+.circle-yes {
+  margin-left: 10%;
+  margin-top: 0%;
+  position: absolute;
+  width: 540px;
+  height: 540px;
+  background: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 3000;
+}
+.circle-no {
+  top: 40%;
+  right: 17%;
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  background: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 3000;
 }
 /* ANIMATION STYLINGS
 ============================================================================= */
