@@ -1,8 +1,7 @@
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/dist
 S3_PUBLICATION_DIR=$(BASEDIR)/deploy
-S3_BUCKET=ww5.frankly.me
-S3_STAGING=staging.frankly.me
+S3_BUCKET=aapkidilli.org
 
 
 help:
@@ -30,14 +29,4 @@ s3_gzip_upload: compress
       --include '*.html' && \
     s3cmd sync $(S3_PUBLICATION_DIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed
 
-staging: compress
-	s3cmd sync $(S3_PUBLICATION_DIR)/ s3://$(S3_STAGING) --acl-public --add-header \
-      "Content-Encoding:gzip" --mime-type="application/javascript; charset=utf-8" \
-      --add-header "Cache-Control: max-age 86400" --exclude '*' --include '*.js' && \
-    s3cmd sync $(S3_PUBLICATION_DIR)/ s3://$(S3_STAGING) --acl-public --add-header \
-      "Content-Encoding:gzip" --mime-type="text/css; charset=utf-8" --add-header \
-      "Cache-Control: max-age 86400" --exclude '*' --include '*.css' && \
-    s3cmd sync $(S3_PUBLICATION_DIR)/ s3://$(S3_STAGING) --acl-public --add-header \
-      "Content-Encoding:gzip" --mime-type="text/html; charset=utf-8" --exclude '*' \
-      --include '*.html' && \
-    s3cmd sync $(S3_PUBLICATION_DIR)/ s3://$(S3_STAGING) --acl-public --delete-removed
+
