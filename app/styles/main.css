@@ -1,8 +1,33 @@
 /* BASIC STYLINGS
 ============================================================================= */
-
-body {
-  padding-top: 20px;
+@import url('../fonts/kozgopr6n-light.css');
+@import url('../fonts/styles.css');
+.form-one {
+  background-color: #018bb3;
+  transition: background-color 0.5s ease;
+}
+.form-two {
+  background-color: #c137a2;
+  transition: background-color 0.5s ease;
+}
+.form-three {
+  background-color: #db942e;
+  transition: background-color 0.5s ease;
+}
+.form-four {
+  background-color: #5d8918;
+  transition: background-color 0.5s ease;
+}
+.city-banner {
+  color: #fff;
+  margin-left: 40%;
+  margin-right: auto;
+  margin-top: 20%;
+}
+.header-text {
+  color: #fff;
+  font-size:30px;
+  font-family: 'KozGoPro-Medium-AlphaNum' sans-serif;
 }
 pre {
   margin-bottom: 20px;
@@ -10,13 +35,11 @@ pre {
 /* form styling */
 
 h2, h3 {
-    color: #fff;
+  color: #fff;
 }
-
 label {
-    color: #fff;
+  color: #fff;
 }
-
 #form-container {
   background: #2f2f2f;
   margin-bottom: 20px;

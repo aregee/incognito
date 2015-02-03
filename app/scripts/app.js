@@ -26,16 +26,20 @@ angular.module('aapkeydilliApp', [
         controller: 'formController'
       })
       .state('form.one', {
-        url: '/profile',
+        url: '/one',
         templateUrl: 'views/form-one.html'
       })
       .state('form.two', {
-        url: '/interests',
+        url: '/two',
         templateUrl: 'views/form-two.html'
       })
       .state('form.three', {
-        url: '/payment',
+        url: '/three',
         templateUrl: 'views/form-three.html'
+      })
+      .state('form.four', {
+        url: '/four',
+        templateUrl: 'views/form-four.html'
       })
       .state('facebook', {
         url: '/social',
