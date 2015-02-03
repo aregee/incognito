@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'BigJohnRegular';
-    src: url('bigjohn.eot');
-    src: url('bigjohn.eot') format('embedded-opentype'),
-         url('bigjohn.woff2') format('woff2'),
-         url('bigjohn.woff') format('woff'),
-         url('bigjohn.ttf') format('truetype'),
-         url('bigjohn.svg#BigJohnRegular') format('svg');
-}

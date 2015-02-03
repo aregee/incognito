@@ -1,1 +1,0 @@
-http://www.bariol.com/license.html

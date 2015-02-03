@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'SlimJoeRegular';
-    src: url('slimjoe.eot');
-    src: url('slimjoe.eot') format('embedded-opentype'),
-         url('slimjoe.woff2') format('woff2'),
-         url('slimjoe.woff') format('woff'),
-         url('slimjoe.ttf') format('truetype'),
-         url('slimjoe.svg#SlimJoeRegular') format('svg');
-}
