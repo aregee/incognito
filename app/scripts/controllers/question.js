@@ -6,6 +6,7 @@ angular.module('aapkeydilliApp')
       // From now on you can use the Facebook service just as Facebook api says
       Facebook.login(function(response) {
         // Do something with response.
+        console.log(response);
       });
     };
 
@@ -13,15 +14,24 @@ angular.module('aapkeydilliApp')
       Facebook.getLoginStatus(function(response) {
         if (response.status === 'connected') {
           $scope.loggedIn = true;
+          console.log(response);
         } else {
           $scope.loggedIn = false;
+          console.log(response);
         }
       });
     };
 
     $scope.me = function() {
-      Facebook.api('/me', function(response) {
+      Facebook.api('/me/feed', function(response) {
         $scope.user = response;
+        console.log(response);
+      });
+    };
+
+    $scope.postUpdate = function() {
+      Facebook.api('/me/feed', 'post', {message:'Hello World'}, {scope: 'publish_actions'}, function(response){
+        console.log(response);
       });
     };
     $scope.$watch(function() {

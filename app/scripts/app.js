@@ -11,7 +11,7 @@ angular.module('aapkeydilliApp', [
   ])
   .config(function($stateProvider, $urlRouterProvider, FacebookProvider) {
     //delete $httpProvider.defaults.headers.common['X-Requested-With'];
-    FacebookProvider.init('YOUR_APP_ID');
+    FacebookProvider.init('859258640764878');
     $urlRouterProvider.otherwise('/');
     $stateProvider
     // route to show our basic form (/form)
@@ -26,16 +26,20 @@ angular.module('aapkeydilliApp', [
         controller: 'formController'
       })
       .state('form.one', {
-        url: '/profile',
+        url: '/one',
         templateUrl: 'views/form-one.html'
       })
       .state('form.two', {
-        url: '/interests',
+        url: '/two',
         templateUrl: 'views/form-two.html'
       })
       .state('form.three', {
-        url: '/payment',
+        url: '/three',
         templateUrl: 'views/form-three.html'
+      })
+      .state('form.four', {
+        url: '/four',
+        templateUrl: 'views/form-four.html'
       })
       .state('facebook', {
         url: '/social',
