@@ -78,6 +78,7 @@
 .circle {
   width: 200px;
   height: 200px;
+  cursor:pointer;
 /*  background: #fff;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -89,6 +90,7 @@
   margin-right:5%;
 }
 .circle-yes {
+  cursor:pointer;
   margin-left: 10%;
   margin-top: 0%;
   position: absolute;
@@ -103,6 +105,7 @@
   z-index: 3000;
 }
 .circle-no {
+  cursor:pointer;
   top: 40%;
   right: 17%;
   position: absolute;
