@@ -1,12 +1,19 @@
 <div class="city-banner">
-  <q class="flaticon header-city"> Do you have a  <b>Voter Card ?</b></q>
+  <q class="flaticon header-city"> Do you have a <b>Voter Card ?</b>
+  </q>
 </div>
 
 <div class="button-row">
-<div class="circle circle-yes" ui-sref="form.three">
-	<img src="images/0201.png"/>
-</div>
-<div class="circle circle-no" ui-sref="form.four">
-	<img src="images/0202.png"/>
-</div>
+  <div class="circle circle-yes">
+    <grid ng-class="{ 'show': shown }">
+      <item ng-click="add('three')"><img src="images/0201.png" />
+      </item>
+    </grid>
+  </div>
+  <div class="circle circle-no">
+    <gridn ng-class="{ 'show': shown }">
+      <itemn ng-click="sub('four')"><img src="images/0202.png" />
+      </itemn>
+    </gridn>
+  </div>
 </div>

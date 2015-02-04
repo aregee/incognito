@@ -43,24 +43,28 @@ angular.module('aapkeydilliApp', [
       })
       .state('form.six', {
         url: '/six',
-        templateUrl : 'views/form-six.html'
+        templateUrl: 'views/form-six.html'
       })
       .state('form.eight', {
         url: '/eight',
         templateUrl: 'views/form-eight.html'
       })
       .state('form.nine', {
-        url:'/nine',
+        url: '/nine',
         templateUrl: 'views/form-nine.html'
       })
       .state('form.tenth', {
-        url:'/ten',
+        url: '/ten',
         templateUrl: 'views/form-ten.html'
       })
       .state('facebook', {
         url: '/social',
         templateUrl: 'views/question.html',
         controller: 'SocialAuthCtrl'
+      })
+      .state('states', {
+        url: '/states',
+        templateUrl: 'views/states.html',
       })
   })
   .run(function($rootScope, Facebook) {
