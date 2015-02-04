@@ -78,10 +78,7 @@
 .circle {
   width: 200px;
   height: 200px;
-  /*  background: #fff;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;*/
+  cursor:pointer;
 }
 .six-page {
   float: left;
@@ -89,6 +86,7 @@
   margin-right: 5%;
 }
 .circle-yes {
+  cursor:pointer;
   margin-left: 10%;
   margin-top: 0%;
   position: absolute;
@@ -119,6 +117,7 @@
   z-index: 2;
 }
 .circle-no {
+  cursor:pointer;
   right: 17%;
   top:240px;
   position: fixed;
@@ -214,9 +213,6 @@
   }
 }
 
-
-.light {
-  font-weight: 100;
 }
 
 .btn {
