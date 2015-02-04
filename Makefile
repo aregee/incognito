@@ -17,7 +17,7 @@ help:
 compress: 
 	python tools/aws-s3-gzip-compression.py $(INPUTDIR) $(S3_PUBLICATION_DIR)
 
-s3_gzip_upload: compress
+upload: compress
 	s3cmd sync $(S3_PUBLICATION_DIR)/ s3://$(S3_BUCKET) --acl-public --add-header \
       "Content-Encoding:gzip" --mime-type="application/javascript; charset=utf-8" \
       --add-header "Cache-Control: max-age 86400" --exclude '*' --include '*.js' && \

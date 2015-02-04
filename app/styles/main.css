@@ -28,8 +28,9 @@
   transition: background-color 0.5s esae;
 }
 .childDev{
-  float: left;
-  margin:5%;
+  /*float: left;*/
+  display: inline-block;
+  margin:2%;
 }
 .containerBody{
   margin:0 auto;
@@ -58,10 +59,10 @@
 .circle {
   width: 200px;
   height: 200px;
-  background: #fff;
+/*  background: #fff;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%;*/
 }
 .six-page{
   float:left;
@@ -74,10 +75,12 @@
   position: absolute;
   width: 540px;
   height: 540px;
+  max-width: 40%;
+  /*max-height: 40%;
   background: #fff;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%;*/
   z-index: 3000;
 }
 .circle-no {
@@ -86,10 +89,12 @@
   position: absolute;
   width: 330px;
   height: 330px;
-  background: #fff;
+  max-width: 20%;
+  max-height: 20%;
+/*  background: #fff;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%;*/
   z-index: 3000;
 }
 /* ANIMATION STYLINGS
