@@ -11,7 +11,7 @@ angular.module('aapkeydilliApp', [
   ])
   .config(function($stateProvider, $urlRouterProvider, FacebookProvider) {
     //delete $httpProvider.defaults.headers.common['X-Requested-With'];
-    FacebookProvider.init('');
+    FacebookProvider.init('403047269862604');
     $urlRouterProvider.otherwise('/form/one');
     $stateProvider
     // route to show our basic form (/form)
