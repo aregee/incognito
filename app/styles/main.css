@@ -19,6 +19,23 @@
   background-color: #5d8918;
   transition: background-color 0.5s ease;
 }
+.form-six{
+  background-color: #18a8ad;
+  transition: background-color 0.5s ease;
+}
+.form-eight{
+  background-color:#f49a0c;
+  transition: background-color 0.5s esae;
+}
+.childDev{
+  float: left;
+  margin:5%;
+}
+.containerBody{
+  margin:0 auto;
+  text-align: center;
+  left:50%;
+}
 .city-banner {
   color: #fff;
   margin-left: 35%;
@@ -32,6 +49,9 @@
   font-family: 'KozGoPro-Medium-AlphaNum' !important;
   z-index: 300;
 }
+.header-city.black{
+  color:#2a2a2a;
+}
 .button-row {
   margin-top: 5%;
 }
@@ -42,6 +62,11 @@
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+}
+.six-page{
+  float:left;
+  margin-left: 5%;
+  margin-right:5%;
 }
 .circle-yes {
   margin-left: 10%;

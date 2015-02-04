@@ -18,4 +18,12 @@ angular.module('aapkeydilliApp')
       var path;
       return path = $state.current.name, _.contains(['form.four'], path);
     };
+    $scope.isSixthPage = function() {
+      var path;
+      return path = $state.current.name, _.contains(['form.six'], path);
+    };
+    $scope.isEighthPage = function() {
+      var path;
+      return path = $state.current.name, _.contains(['form.eight'], path);
+    };
   });
