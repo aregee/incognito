@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "flaticon";
+	src: url("kozgopr6n-light.eot");
+	src: url("kozgopr6n-light.eot#iefix") format("embedded-opentype"),
+	url("kozgopr6n-light.woff") format("woff"),
+	url("kozgopr6n-light.ttf") format("truetype"),
+	url("kozgopr6n-light.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+/*[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}*/
