@@ -8,7 +8,7 @@ angular.module('aapkeydilliApp')
       console.log("true");
       $timeout(function() {
         $scope.shown = true;
-      }, 1600)
+      }, 1700)
     });
     $scope.add = function(args) {
       //change state here
@@ -17,7 +17,7 @@ angular.module('aapkeydilliApp')
       $timeout(function() {
 
         $state.go(state);
-      }, 800)
+      }, 1000)
 
 
     };
@@ -27,7 +27,7 @@ angular.module('aapkeydilliApp')
       var state = 'form.' + args;
       $timeout(function() {
         $state.go(state);
-      }, 800)
+      }, 1000)
 
     };
 

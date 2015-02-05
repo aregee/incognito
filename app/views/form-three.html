@@ -4,11 +4,19 @@
   <h3 class="flaticon"> Where do you drop your vote from ?</h3>
 </div>
 <div class="button-row hidden-xs hidden-sm">
-  <div class="circle circle-yes" ui-sref="form.four">
-    <img src="images/0301.png" />
+  <div class="circle circle-yes">
+    <grid ng-class="{'show': shown }">
+      <item class="text-center" ng-click="add('four')">
+        <img class="img-responsive" src="images/0301.png" />
+      </item>
+    </grid>
   </div>
   <div class="circle circle-no">
-    <img src="images/0302.png" onclick="window.open('http://www.ceodelhi.gov.in')" />
+    <gridn ng-class="{'show': shown}">
+      <itemn onclick="window.open('http://www.ceodelhi.gov.in')">
+        <img class="img-responsive" src="images/0302.png" />
+      </itemn>
+    </gridn>
   </div>
 </div>
 <div class="container-fluid visible-xs visible-sm">
