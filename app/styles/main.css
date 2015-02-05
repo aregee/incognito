@@ -107,6 +107,8 @@
   cursor: pointer;
   margin-left: 3%;
   margin-right: 3%;
+  width:240px;
+  max-width: 28%;
 }
 .eleven-page {
   cursor: pointer;
