@@ -1,18 +1,39 @@
-<div class="city-banner">
-<div class="flaticon header-city">Are you from <b>Delhi</b>?</div>
+<div class="city-banner hidden-sm hidden-xs">
+  <div class="flaticon header-city">Are you from <b>Delhi</b>?</div>
 </div>
-<div class="city-banner">
+<div class="city-banner hidden-sm hidden-xs">
   <div class="circle circle-yes">
     <grid ng-class="{ 'show': shown }">
       <item ng-click="add('two')">
-      	<img src="images/0101.png" />
+        <img src="images/0101.png" />
       </item>
     </grid>
   </div>
   <div class="circle circle-no">
     <gridn ng-class="{'show': shown}">
       <itemn ng-click="add('seven')">
-      	<img src="images/0102.png" />
+        <img src="images/0102.png" />
+      </itemn>
+    </gridn>
+  </div>
+</div>
+<div class="container visible-xs visible-sm">
+  <div class="row">
+    <div class="city-banner">
+      <div class="flaticon header-city">Are you from <b>Delhi</b>?</div>
+    </div>
+  </div>
+  <div class="row">
+    <grid ng-class="{'show': shown }">
+      <item class="text-center" ng-click="add('two')">
+        <img class="img-responsive" src="images/0101.png" />
+      </item>
+    </grid>
+  </div>
+  <div class="row">
+    <gridn ng-class="{'show': shown}">
+      <itemn ng-click="add('seven')">
+        <img class="img-responsive" src="images/0102.png" />
       </itemn>
     </gridn>
   </div>

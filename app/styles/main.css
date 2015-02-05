@@ -29,20 +29,21 @@
   background-color: #f49a0c;
   transition: background-color 0.5s ease;
 }
-.form-nine{
+.form-nine {
   background-color: #f49a0c;
   transition: background-color 0.5s ease;
 }
-.form-ten{
+.form-ten {
   background-color: #3594b6;
   transition: background-color 0.5s ease;
 }
-.form-eleven{
+.form-eleven {
   background-color: #d80072;
   transition: background-color 0.5s ease;
 }
 .childDev {
   /*float: left;*/
+  
   cursor: pointer;
   display: inline-block;
   margin: 2%;
@@ -68,12 +69,11 @@
   font-size: 50px;
   line-height: 60px;
   font-family: 'flaticon' sans-serif;
-
 }
 @media (max-width: 600px) {
   .header-city {
-    font-size:30px;
-    line-height:32px;
+    font-size: 30px;
+    line-height: 32px;
   }
 }
 .nextButton {
@@ -101,24 +101,24 @@
 .circle {
   width: 200px;
   height: 200px;
-  cursor:pointer;
+  cursor: pointer;
 }
 .six-page {
   cursor: pointer;
   margin-left: 3%;
   margin-right: 3%;
-  width:240px;
+  width: 240px;
   max-width: 28%;
 }
 .eleven-page {
   cursor: pointer;
   margin-left: 3%;
   margin-right: 3%;
-  width:300px;
-  max-width:25%;
+  width: 300px;
+  max-width: 25%;
 }
 .circle-yes {
-  cursor:pointer;
+  cursor: pointer;
   margin-left: 10%;
   margin-top: 0%;
   position: absolute;
@@ -133,25 +133,10 @@
   
   z-index: 3000;
 }
-.circle-yes-sb {
-  margin-top: 0%;
-  right: 0;
-  position: absolute;
-  width: 540px;
-  height: 540px;
-  max-width: 40%;
-  /*max-height: 40%;
-  background: #fff;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;*/
-  
-  z-index: 2;
-}
 .circle-no {
-  cursor:pointer;
+  cursor: pointer;
   right: 17%;
-  top:240px;
+  top: 240px;
   position: fixed;
   width: 330px;
   height: 330px;
@@ -163,7 +148,6 @@
   
   z-index: 4;
 }
-
 /* ANIMATION STYLINGS
 ============================================================================= */
 
@@ -190,7 +174,6 @@
   -webkit-animation: slideInRight 0.5s both ease;
   -moz-animation: slideInRight 0.5s both ease;
   animation: 0.25 cubic-bezier(0.55, 0, 0.55, 0.2);
-  
 }
 /* leave animation */
 
@@ -244,9 +227,7 @@
     -webkit-transform: translateX(0);
   }
 }
-
 }
-
 .btn {
   width: 211px;
   background: #3F51B5;
@@ -261,9 +242,9 @@
   margin: 0 3px 3px 0;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   box-sizing: border-box;
   float: left;
   height: 52px;
@@ -280,10 +261,10 @@
   width: 50.5px;
   background: #FFFFFF;
   -webkit-transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
-          transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
+  transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
   background: #eee;
 }
 .btn.sm:hover {
@@ -291,22 +272,22 @@
 }
 .btn.sm.show-add:nth-child(3) {
   -webkit-transition-delay: 200ms;
-          transition-delay: 200ms;
+  transition-delay: 200ms;
 }
 .btn.sm.show-remove:nth-child(2) {
   -webkit-transition-delay: 100ms;
-          transition-delay: 100ms;
+  transition-delay: 100ms;
 }
 .btn.sm.show {
   -webkit-transition: 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
-          transition: 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 .btn.sm.show:nth-child(3) {
   -webkit-transition-delay: 100ms;
-          transition-delay: 100ms;
+  transition-delay: 100ms;
 }
 .btn.sm.minus:before, .btn.sm.plus:before {
   position: absolute;
@@ -316,8 +297,8 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-      -ms-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   content: '';
 }
 .btn.sm.plus:after {
@@ -328,11 +309,10 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-      -ms-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   content: '';
 }
-
 grid {
   *zoom: 1;
   clear: left;
@@ -357,40 +337,40 @@ grid item {
   font-size: 46px;
   border-radius: 50%;
   -webkit-transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
-          transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
+  transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
 }
 grid.show item {
   -webkit-transition: 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
-          transition: 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 grid.show item.ng-enter {
   -webkit-transition-delay: 0 !important;
-          transition-delay: 0 !important;
+  transition-delay: 0 !important;
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
 }
 grid.show item.ng-enter.ng-enter-active {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 grid.show item.ng-leave {
   -webkit-transition-delay: 0 !important;
-          transition-delay: 0 !important;
+  transition-delay: 0 !important;
   -webkit-transition: 0.25 cubic-bezier(0.55, 0, 0.55, 0.2);
-          transition: 0.25 cubic-bezier(0.55, 0, 0.55, 0.2);
+  transition: 0.25 cubic-bezier(0.55, 0, 0.55, 0.2);
 }
 grid.show item.ng-leave.ng-leave-active {
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
 }
 gridn {
   *zoom: 1;
@@ -416,38 +396,76 @@ gridn itemn {
   font-size: 46px;
   border-radius: 50%;
   -webkit-transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
-          transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
+  transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
 }
 gridn.show itemn {
   -webkit-transition: 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
-          transition: 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 gridn.show itemn.ng-enter {
   -webkit-transition-delay: 0 !important;
-          transition-delay: 0 !important;
+  transition-delay: 0 !important;
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
 }
 gridn.show itemn.ng-enter.ng-enter-active {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 gridn.show itemn.ng-leave {
   -webkit-transition-delay: 0 !important;
-          transition-delay: 0 !important;
+  transition-delay: 0 !important;
   -webkit-transition: 0.25 cubic-bezier(0.55, 0, 0.55, 0.2);
-          transition: 0.25 cubic-bezier(0.55, 0, 0.55, 0.2);
+  transition: 0.25 cubic-bezier(0.55, 0, 0.55, 0.2);
 }
 gridn.show itemn.ng-leave.ng-leave-active {
   -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+}
+@media (max-width: 600px) {
+  grid item {
+    background: transparent;
+    color: #FFFFFF;
+    width: 330px;
+    height: 330px;
+    display: block;
+    float: left;
+    margin: 0 0 0 0;
+    text-align: center;
+    line-height: 104px;
+    font-size: 46px;
+    border-radius: 50%;
+    -webkit-transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
+    transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  gridn itemn {
+    background: transparent;
+    color: #FFFFFF;
+    width: 220px;
+    height: 220px;
+    display: block;
+    float: left;
+    margin: 0 0 0 0;
+    text-align: center;
+    line-height: 104px;
+    font-size: 46px;
+    border-radius: 50%;
+    -webkit-transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
+    transition: 0.35s cubic-bezier(0.55, 0, 0.55, 0.2);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
 }
