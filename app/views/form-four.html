@@ -2,10 +2,16 @@
   <q class="flaticon header-city"> So are you going to vote this <b> 7th ?</b></q>
 </div>
 <div class="button-row">
-  <div class="circle circle-yes" ui-sref="form.six">
-    <img src="images/g0401.png" />
+  <div class="circle circle-yes">
+    <grid ng-class="{ 'show': shown }">
+      <item ng-click="add('six')"><img src="images/g0401.png" />
+      </item>
+    </grid>
   </div>
-  <div class="circle circle-no" ui-sref="form.seven">
-    <img src="images/0402.png" />
+  <div class="circle circle-no">
+    <gridn ng-class="{ 'show': shown }">
+      <itemn ng-click="sub('seven')"><img src="images/0402.png" />
+      </itemn>
+    </gridn>
   </div>
 </div>
