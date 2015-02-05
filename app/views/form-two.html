@@ -3,10 +3,16 @@
 </div>
 
 <div class="button-row">
-<div class="circle circle-yes" ui-sref="form.three">
-	<img src="images/0201.png"/>
-</div>
-<div class="circle circle-no" ui-sref="form.seven">
-	<img src="images/0202.png"/>
-</div>
+  <div class="circle circle-yes">
+    <grid ng-class="{ 'show': shown }">
+      <item ng-click="add('three')"><img src="images/0201.png" />
+      </item>
+    </grid>
+  </div>
+  <div class="circle circle-no">
+    <gridn ng-class="{ 'show': shown }">
+      <itemn ng-click="sub('seven')"><img src="images/0202.png" />
+      </itemn>
+    </gridn>
+  </div>
 </div>

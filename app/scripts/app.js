@@ -43,7 +43,7 @@ angular.module('aapkeydilliApp', [
       })
       .state('form.six', {
         url: '/six',
-        templateUrl : 'views/form-six.html'
+        templateUrl: 'views/form-six.html'
       })
       .state('form.seven', {
         url: '/seven',
@@ -54,7 +54,7 @@ angular.module('aapkeydilliApp', [
         templateUrl: 'views/form-eight.html'
       })
       .state('form.nine', {
-        url:'/nine',
+        url: '/nine',
         templateUrl: 'views/form-nine.html'
       })
       .state('form.ten', {
@@ -69,6 +69,10 @@ angular.module('aapkeydilliApp', [
         url: '/social',
         templateUrl: 'views/question.html',
         controller: 'SocialAuthCtrl'
+      })
+      .state('states', {
+        url: '/states',
+        templateUrl: 'views/states.html',
       })
   })
   .run(function($rootScope, Facebook) {

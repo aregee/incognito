@@ -1,0 +1,13 @@
+<p>This is the states view.</p>
+
+
+<div ng-controller="formController as c"><a ng-click="c.shown = !c.shown" class="btn">{{c.shown ? 'Hide' : 'Show'}} Items</a>
+  <a ng-class="{ show: c.shown, disabled: c.items.length === 0 }" ng-click="c.sub()" class="btn sm minus"></a>
+  <a ng-class="{ show: c.shown, disabled: c.items.length &gt;= 30 }" ng-click="c.add()" class="btn sm plus"></a>
+  <grid ng-class="{ show: c.shown }">
+    <item ng-click="c.sub()">hello</item>
+  </grid>
+  <gridn ng-class="{ show: c.shown }">
+    <itemn ng-click="c.add()" ng-repeat="item in c.items">{{$index + 1}}</item>
+  </gridn>
+</div>
