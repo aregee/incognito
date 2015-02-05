@@ -1,12 +1,38 @@
-<div class="city-banner">
-  <q class="flaticon header-city"> Do you know your <b>Consituency ?</b></q>
+<div class="city-banner hidden-xs hidden-sm">
+  <q class="flaticon header-city"> Do you know your <b>Consituency ?</b>
+  </q>
   <h3 class="flaticon"> Where do you drop your vote from ?</h3>
 </div>
-<div class="button-row">
-<div class="circle circle-yes" ui-sref="form.four">
-	<img src="images/0301.png"/>
+<div class="button-row hidden-xs hidden-sm">
+  <div class="circle circle-yes" ui-sref="form.four">
+    <img src="images/0301.png" />
+  </div>
+  <div class="circle circle-no">
+    <img src="images/0302.png" onclick="window.open('http://www.ceodelhi.gov.in')" />
+  </div>
 </div>
-<div class="circle circle-no">
-	<img src="images/0302.png" onclick="window.open('http://www.ceodelhi.gov.in')"/>
-</div>
+<div class="container-fluid visible-xs visible-sm">
+  <div class="row">
+    <div class="city-banner">
+      <q class="flaticon header-city"> Do you know your <b>Consituency ?</b>
+      </q>
+    </div>
+  </div>
+  <div class="row">
+    <h3 class="city-banner flaticon header-city"> Where do you drop your vote from ?</h3>
+  </div>
+  <div class="row">
+    <grid ng-class="{'show': shown }">
+      <item class="text-center" ng-click="add('four')">
+        <img class="img-responsive" src="images/0301.png" />
+      </item>
+    </grid>
+  </div>
+  <div class="row">
+    <gridn ng-class="{'show': shown}">
+      <itemn onclick="window.open('http://www.ceodelhi.gov.in')">
+        <img class="img-responsive" src="images/0302.png" />
+      </itemn>
+    </gridn>
+  </div>
 </div>

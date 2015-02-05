@@ -1,8 +1,7 @@
-<div class="city-banner">
+<div class="city-banner hidden-xs hidden-sm">
   <q class="flaticon header-city"> Do you have a <b>Voter Card ?</b></q>
 </div>
-
-<div class="button-row">
+<div class="button-row hidden-sm hidden-xs">
   <div class="circle circle-yes">
     <grid ng-class="{ 'show': shown }">
       <item ng-click="add('three')"><img src="images/0201.png" />
@@ -12,6 +11,27 @@
   <div class="circle circle-no">
     <gridn ng-class="{ 'show': shown }">
       <itemn ng-click="sub('seven')"><img src="images/0202.png" />
+      </itemn>
+    </gridn>
+  </div>
+</div>
+<div class="container visible-xs visible-sm">
+  <div class="row">
+    <div class="city-banner">
+      <div class="flaticon header-city"> Do you have a <b>Voter Card ?</b></div>
+    </div>
+  </div>
+  <div class="row">
+    <grid ng-class="{'show': shown }">
+      <item class="text-center" ng-click="add('three')">
+        <img class="img-responsive" src="images/0201.png" />
+      </item>
+    </grid>
+  </div>
+  <div class="row">
+    <gridn ng-class="{'show': shown}">
+      <itemn ng-click="add('seven')">
+        <img class="img-responsive" src="images/0202.png" />
       </itemn>
     </gridn>
   </div>

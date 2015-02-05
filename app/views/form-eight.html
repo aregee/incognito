@@ -1,12 +1,34 @@
-<div class="city-banner">
+<div class="city-banner hidden-xs hidden-sm">
   <q class="flaticon header-city" style="padding-left:0;padding-right:0;"> So, Would <b>You</b> Like to participate a bit for <b>the Change</b>
   </q>
 </div>
-<div class="button-row">
+<div class="button-row hidden-xs hidden-sm">
   <div class="circle circle-yes" ui-sref="form.nine">
     <img src="images/0801.png" />
   </div>
   <div class="circle circle-no" ui-sref="form.one">
     <img src="images/0802.png" />
+  </div>
+</div>
+<div class="container-fluid visible-xs visible-sm">
+  <div class="row">
+    <div class="city-banner">
+      <q class="flaticon header-city">So are you going to vote this <b> 7th ?</b>
+      </q>
+    </div>
+  </div>
+  <div class="row">
+    <grid ng-class="{'show': shown }">
+      <item class="text-center" ng-click="add('nine')">
+        <img class="img-responsive" src="images/0801.png" />
+      </item>
+    </grid>
+  </div>
+  <div class="row">
+    <gridn ng-class="{'show': shown}">
+      <itemn ng-click="sub('one')">
+        <img class="img-responsive" src="images/0802.png" />
+      </itemn>
+    </gridn>
   </div>
 </div>

@@ -1,7 +1,8 @@
-<div class="city-banner">
-  <q class="flaticon header-city"> So are you going to vote this <b> 7th ?</b></q>
+<div class="city-banner hidden-xs hidden-sm">
+  <q class="flaticon header-city"> So are you going to vote this <b> 7th ?</b>
+  </q>
 </div>
-<div class="button-row">
+<div class="button-row hidden-xs hidden-sm">
   <div class="circle circle-yes">
     <grid ng-class="{ 'show': shown }">
       <item ng-click="add('six')"><img src="images/g0401.png" />
@@ -11,6 +12,28 @@
   <div class="circle circle-no">
     <gridn ng-class="{ 'show': shown }">
       <itemn ng-click="sub('seven')"><img src="images/0402.png" />
+      </itemn>
+    </gridn>
+  </div>
+</div>
+<div class="container-fluid visible-xs visible-sm">
+  <div class="row">
+    <div class="city-banner">
+      <q class="flaticon header-city">So are you going to vote this <b> 7th ?</b>
+      </q>
+    </div>
+  </div>
+  <div class="row">
+    <grid ng-class="{'show': shown }">
+      <item class="text-center" ng-click="add('six')">
+        <img class="img-responsive" src="images/g0401.png" />
+      </item>
+    </grid>
+  </div>
+  <div class="row">
+    <gridn ng-class="{'show': shown}">
+      <itemn ng-click="sub('seven')">
+        <img class="img-responsive" src="images/0402.png" />
       </itemn>
     </gridn>
   </div>
