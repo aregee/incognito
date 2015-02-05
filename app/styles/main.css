@@ -21,21 +21,29 @@
   background-color: #18a8ad;
   transition: background-color 0.5s ease;
 }
+.form-seven {
+  background-color: #00aba9;
+  transition: background-color 0.5s ease;
+}
 .form-eight {
   background-color: #f49a0c;
   transition: background-color 0.5s ease;
 }
 .form-nine{
-  background-color: #fff;
+  background-color: #f49a0c;
   transition: background-color 0.5s ease;
 }
 .form-ten{
   background-color: #3594b6;
   transition: background-color 0.5s ease;
 }
+.form-eleven{
+  background-color: #d80072;
+  transition: background-color 0.5s ease;
+}
 .childDev {
   /*float: left;*/
-  
+  cursor: pointer;
   display: inline-block;
   margin: 2%;
 }
@@ -99,6 +107,13 @@
   cursor: pointer;
   margin-left: 3%;
   margin-right: 3%;
+}
+.eleven-page {
+  cursor: pointer;
+  margin-left: 3%;
+  margin-right: 3%;
+  width:300px;
+  max-width:25%;
 }
 .circle-yes {
   cursor:pointer;

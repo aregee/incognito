@@ -1,15 +1,17 @@
 <div class="city-banner">
-  <h1 class="header-city black" style="font-weight:normal">Let us share the message with our friends and family!<br>
-    <b style="margin-top:20px;display:block;">And let them know what's good for them...</b>
-  </h1>
+  <h1 class="header-city black" style="font-weight:normal; color:white;">Let us share the message with our friends and family!</h1>
+  <h3 class="flaticon" style="margin-top:20px; font-weight:normal;">And let them know what's good for them...</h3>
 </div>
 <div class="button-row containerBody">
-  <h2>Share this</h2>
+  <h2 style="color:white;font-weight:normal;">Share this</h2>
   <div class="childDev">
-    <img src="images/0901.png" />
+    <img src="images/0901.png" onclick="FB.ui({
+  method: 'share',
+  href: 'http://aapkidilli.org/share',
+}, function(response){});" />
   </div>
   <div class="childDev">
-    <img src="images/0902.png" />
+    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?url=http://aapkidilli.org/share&text=Delhi is voting for AAP on 7th Feb, Sat. Do vote and ask your friends n family to do the same&hashtags=AAPKiDilli,JuntaKaCM" target="_blank"><img src="images/0902.png" /></a>
   </div>
 </div>
 <div class="nextButton" ui-sref="form.ten">Next</div>

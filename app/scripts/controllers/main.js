@@ -22,6 +22,10 @@ angular.module('aapkeydilliApp')
       var path;
       return path = $state.current.name, _.contains(['form.six'], path);
     };
+    $scope.isSeventhPage = function() {
+      var path;
+      return path = $state.current.name, _.contains(['form.seven'], path);
+    }
     $scope.isEighthPage = function() {
       var path;
       return path = $state.current.name, _.contains(['form.eight'], path);
@@ -33,6 +37,10 @@ angular.module('aapkeydilliApp')
     $scope.isTenthPage = function() {
       var path;
       return path = $state.current.name, _.contains(['form.ten'], path);
+    };
+    $scope.isEleventhPage = function() {
+      var path;
+      return path = $state.current.name, _.contains(['form.eleven'], path);
     };
 
   });

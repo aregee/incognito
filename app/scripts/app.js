@@ -45,6 +45,10 @@ angular.module('aapkeydilliApp', [
         url: '/six',
         templateUrl : 'views/form-six.html'
       })
+      .state('form.seven', {
+        url: '/seven',
+        templateUrl : 'views/form-seven.html'
+      })
       .state('form.eight', {
         url: '/eight',
         templateUrl: 'views/form-eight.html'
@@ -56,6 +60,10 @@ angular.module('aapkeydilliApp', [
       .state('form.ten', {
         url:'/ten',
         templateUrl: 'views/form-ten.html'
+      })
+      .state('form.eleven', {
+        url:'/eleven',
+        templateUrl: 'views/form-eleven.html'
       })
       .state('facebook', {
         url: '/social',
