@@ -23,7 +23,15 @@
 }
 .form-eight {
   background-color: #f49a0c;
-  transition: background-color 0.5s esae;
+  transition: background-color 0.5s ease;
+}
+.form-nine{
+  background-color: #fff;
+  transition: background-color 0.5s ease;
+}
+.form-ten{
+  background-color: #3594b6;
+  transition: background-color 0.5s ease;
 }
 .childDev {
   /*float: left;*/
@@ -50,8 +58,15 @@
   margin-top: 5%;
   color: #fff;
   font-size: 50px;
+  line-height: 60px;
   font-family: 'flaticon' sans-serif;
 
+}
+@media (max-width: 600px) {
+  .header-city {
+    font-size:30px;
+    line-height:32px;
+  }
 }
 .nextButton {
   cursor: pointer;
@@ -81,9 +96,9 @@
   cursor:pointer;
 }
 .six-page {
-  float: left;
-  margin-left: 5%;
-  margin-right: 5%;
+  cursor: pointer;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 .circle-yes {
   cursor:pointer;

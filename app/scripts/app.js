@@ -53,7 +53,7 @@ angular.module('aapkeydilliApp', [
         url:'/nine',
         templateUrl: 'views/form-nine.html'
       })
-      .state('form.tenth', {
+      .state('form.ten', {
         url:'/ten',
         templateUrl: 'views/form-ten.html'
       })
